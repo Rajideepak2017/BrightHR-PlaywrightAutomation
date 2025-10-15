@@ -40,7 +40,7 @@ class employeePage{
   
 
 
-  async closeModal() {
+  async closeModalbranch() {
 
   const closeButton = this.page.locator(this.closeLink);
   if (await closeButton.isVisible()) {
