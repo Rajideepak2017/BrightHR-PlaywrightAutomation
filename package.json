@@ -1,0 +1,28 @@
+{
+  "name": "brighthr-playwright-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "playwrightTest":"npx playwright test tests/test.spec.js --reporter=html",
+  "test": "npx cucumber-js",
+  "cucumberTest": "npx cucumber-js tests/features/**/*.feature --require tests/steps/**/*.js --require setup/hooks.js --format json:reports/cucumber_report.json --format progress",
+  "htmlReport": "node generateReports.js",
+  "testother": "npm run test && npm run playwrightTest",
+  "smoke": "npx playwright test --grep @Smoke",
+  "testfirefox":"npx cucumber-js tests/features/**/*.feature --require tests/steps/**/*.js --require setup/hooks.js --format json:reports/cucumber_report.json --format progress --tags \"@firefox\"",
+  "testWithReport": "npm run htmlReport",
+   "testWithReportags": "npm run testfirefox"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@cucumber/html-formatter": "^22.0.0",
+    "@playwright/test": "^1.55.1",
+    "cucumber-html-reporter": "^7.2.0",
+    "playwright": "^1.55.1"
+  }
+}

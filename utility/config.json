@@ -1,0 +1,47 @@
+{
+  "brightHRUrl": "https://sandbox-app.brighthr.com/lite",
+  "dashboardURL": "https://sandbox-app.brighthr.com/dashboard",
+ "default": "chromium",
+  "tagMapping": {
+    "@firefox": "firefox",
+    "@webkit": "webkit"
+  },
+  "firstUser":{
+        "firstName": "Lewi",
+        "Lastname":"Thomas",
+        "email": "LewiThomas@brightHr.com",
+        "day":"11",
+        "month":"Oct",
+        "year":"2025"
+
+    },
+    "secondUser":{
+        "firstName": "Steph",
+        "Lastname":"Thomas",
+        "email": "StephThomas@brightHr.com",
+        "day":"11",
+        "month":"Oct",
+        "year":"2025"
+    },
+    "playwrightUserOne":{
+        "firstName": "Deepak",
+        "Lastname":"LD",
+        "email": "DeepakLD@brightHr.com",
+        "day":"11",
+        "month":"Oct",
+        "year":"2025"
+    },
+     "playwrightUserTwo":{
+        "firstName": "Amulu",
+        "Lastname":"LD",
+        "email": "AmuluLD@brightHr.com",
+        "day":"11",
+        "month":"Oct",
+        "year":"2025"
+    },
+    "validUser":{
+        "username": "rajalakshmi.deepak2017@gmail.com",
+        "password":"BrightHR2025"
+
+    }
+}
