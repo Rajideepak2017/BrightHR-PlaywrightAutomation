@@ -114,7 +114,7 @@ async addEmployee( firstName, lastName, email,day,month,year ) {
 }
 
 
-  async getEmployeeNamesstash() {
+  async getEmployeeNames() {
 
     const nameLocator = this.page.locator(this.employeeLists);
     const count = await nameLocator.count();
