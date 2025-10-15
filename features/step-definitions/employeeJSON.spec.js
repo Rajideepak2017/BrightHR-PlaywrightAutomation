@@ -24,6 +24,6 @@ const dataset = require(path.resolve(__dirname, '../../utility/config.json'));
          const lName = secondUser.Lastname;
          const employeeTwo = fName + " " + lName;
          await this.poManager.getEmployeePage().verifyEmployeeVisible(employeeTwo);
-
+console.log("Message");
 
          });
