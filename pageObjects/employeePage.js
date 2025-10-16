@@ -132,6 +132,9 @@ async addEmployee( firstName, lastName, email,day,month,year ) {
 
 }
 
+async GIT(){
+
+}
 
 }
 module.exports ={employeePage};
