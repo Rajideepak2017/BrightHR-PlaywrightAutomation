@@ -3,9 +3,9 @@ name: BrightHR E2E Tests
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [mainddd]
   pull_request:
-    branches: [main]
+    branches: [maidddn]
 
 jobs:
   e2e:
