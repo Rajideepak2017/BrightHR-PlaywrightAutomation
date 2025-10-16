@@ -38,7 +38,14 @@ class employeePage{
 
   }
   
+<<<<<<< HEAD
   async closeModal() {
+=======
+
+
+  async closeModal() {
+
+>>>>>>> 26f456a330c38ac6b43e9153bc7e8fc3d29d90d2
   const closeButton = this.page.locator(this.closeLink);
   if (await closeButton.isVisible()) {
     await closeButton.click();
@@ -129,6 +136,10 @@ async addEmployee( firstName, lastName, email,day,month,year ) {
 
 }
 
+async GITMain(){
+
+
+}
 
 }
 module.exports ={employeePage};
