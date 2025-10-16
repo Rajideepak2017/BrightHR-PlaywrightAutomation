@@ -40,8 +40,8 @@ class employeePage{
   
 
 
-  async closeModal() {
 
+  async closeModal() {
   const closeButton = this.page.locator(this.closeLink);
   if (await closeButton.isVisible()) {
     await closeButton.click();
@@ -132,7 +132,10 @@ async addEmployee( firstName, lastName, email,day,month,year ) {
 
 }
 
-async GITBranch(){
+
+async GITMain(){
+
+
 
 }
 

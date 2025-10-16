@@ -1,6 +1,6 @@
 {
-  "brightHRUrl": "https://sandbox-app.brighthr.com/lite",
-  "dashboardURL": "https://sandbox-app.brighthr.com/dashboard",
+  "brightHRUrl": "https://sandbox-app.brighthr.com/lite1",
+  "dashboardURL": "https://sandbox-app.brighthr.com/dashboard1",
  "default": "chromium",
   "tagMapping": {
     "@firefox": "firefox",
