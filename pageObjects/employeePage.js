@@ -4,7 +4,7 @@ class employeePage{
         this.page = page;
         this.employeeMenu = "//*[@title='Employees']";
         this.addEmployeelink = "//*[text()='Add employee']";
-        this.firstName='#firstName';
+        this.firstName='#firstName88';
         this.lastName='#lastName';
         this.email ='#email';
         this.submit="//*[@type='submit']";
